@@ -1,4 +1,4 @@
-export class Car {
+class Car {
   constructor(name) {
     this.name = name;
     this.position = 0;
@@ -16,3 +16,5 @@ export class Car {
     return this.name;
   }
 }
+
+export default Car;

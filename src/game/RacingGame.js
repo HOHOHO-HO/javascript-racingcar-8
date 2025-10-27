@@ -1,4 +1,4 @@
-import { Car } from "../domain/Car";
+import Car from "../domain/Car";
 import { RandomNumber, getWinners } from "../utils/utils";
 import {
   printGameStartMessage,
